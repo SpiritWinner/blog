@@ -1,0 +1,25 @@
+.searchBar {
+  margin-bottom: 20px;
+  text-align: center;
+
+  input[type="text"] {
+    padding: 10px;
+    min-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #003f7f;
+    }
+  }
+}

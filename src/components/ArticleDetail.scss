@@ -1,0 +1,42 @@
+.articleDetail {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 20px auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 3px;
+      margin-bottom: 5px;
+    }
+  }
+}

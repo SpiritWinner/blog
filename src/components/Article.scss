@@ -1,0 +1,32 @@
+.article {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  p {
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
