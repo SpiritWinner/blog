@@ -2,7 +2,7 @@
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
-  min-width: 600px;
+  max-width: 600px;
   margin: 20px auto;
   display: flex;
   flex-direction: column;
@@ -41,6 +41,34 @@
 
     &:hover {
       background-color: #0056b3;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 15px;
+
+    div {
+      width: 90%;
+    }
+
+    button {
+      padding: 12px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    div {
+      width: 100%;
+    }
+
+    button {
+      padding: 10px;
     }
   }
 }
