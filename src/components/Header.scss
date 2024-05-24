@@ -1,42 +1,79 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-  
-    .logo {
-        h1 {
-          margin: 0;
-        }
-      }
-    
-      .logoLink {
-        color: white;
-        text-decoration: none;
-    
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-  
-    .searchBar {
-      flex-grow: 1;
-      margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+
+  .logo {
+    h1 {
+      margin: 0;
     }
-  
-    .addArticleLink {
-      a {
-        color: white;
-        text-decoration: none;
-        background-color: #0056b3;
-        padding: 10px 20px;
-        border-radius: 5px;
-        &:hover {
-          background-color: #003f7f;
-        }
+  }
+
+  .logoLink {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .searchBar {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+
+  .addArticleLink {
+    a {
+      color: white;
+      text-decoration: none;
+      background-color: #0056b3;
+      padding: 10px 20px;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #003f7f;
       }
     }
   }
-  
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .searchBar {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .addArticleLink {
+      width: 80%;
+      text-align: center;
+      margin-top: 10px;
+
+      a {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+
+    .logo {
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .addArticleLink {
+      a {
+        padding: 10px;
+      }
+    }
+  }
+}
