@@ -32,38 +32,38 @@ const AddArticle: React.FC = () => {
     <Layout onSearch={() => {}}>
     <div className="addArticle">
       <h1>Добавить новую статью</h1>
-      <div>
+      {/* <div> */}
         <input
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           placeholder="Заголовок"
         />
-      </div>
-      <div>
+      {/* </div> */}
+      {/* <div> */}
         <input
           type="text"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder="Краткое описание"
         />
-      </div>
-      <div>
+      {/* </div> */}
+      {/* <div> */}
         <textarea
           value={content}
           onChange={(e) => setContent(e.target.value)}
           placeholder="Полный текст"
           rows={8}
         />
-      </div>
-      <div>
+      {/* </div> */}
+      {/* <div> */}
         <input
           type="text"
           value={image}
           onChange={(e) => setImage(e.target.value)}
           placeholder="URL изображения"
         />
-      </div>
+      {/* </div> */}
       <button onClick={handleAddArticle}>Добавить статью</button>
     </div>
     </Layout>
