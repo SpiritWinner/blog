@@ -9,8 +9,8 @@ import './index.css';
 
 const App: React.FC = () => {
   return (
-    <Provider store={store}>
-      <Router>
+    <Provider store={store}> 
+    <Router  basename="/blog">
         <Routes>
           <Route path="/" element={<ArticleList />} />
           <Route path="/article/:id" element={<ArticleDetail />} />
