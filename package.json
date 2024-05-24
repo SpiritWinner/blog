@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "0.1.0",
-  "homepage": "http://SpiritWinner.github.io/blog",
+  "homepage": "http://SpiritWinner.github.io/blog/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.5",
